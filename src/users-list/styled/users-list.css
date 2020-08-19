@@ -1,0 +1,35 @@
+.usersList {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.usersList__title {
+  color: #e8e2e2;
+  font-weight: 500;
+  margin: 10px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .usersList__progress  > .circle {
+    animation: progress-spin infinite 1s linear;
+  }
+}
+.usersList__progress  > .circle {
+  transition: stroke-dashoffset 1s;
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+  stroke-dasharray: 327 120;
+}
+
+@keyframes progress-spin {
+  from {
+    stroke-dashoffset: 120;
+  }
+  to {
+    stroke-dashoffset: 360;
+  }
+}

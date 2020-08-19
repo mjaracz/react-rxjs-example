@@ -1,0 +1,14 @@
+.usersList__searchBar {
+    border: none;
+    outline: none;
+    display: block;
+    color: #282c34;
+    font-size: 18px;
+    transition: .3s;
+    padding: 5px;
+    margin: 30px;
+    border-radius: 2px;
+}
+.usersList__searchBar:focus {
+    outline: #0099ff 3px solid;
+}

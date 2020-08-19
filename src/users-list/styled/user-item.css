@@ -1,0 +1,19 @@
+.userItem {
+    width: 380px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin: 20px;
+}
+.userItem__title {
+    display: block;
+    width: 160px;
+    color: #f6ecec;
+    margin-right: 12px;
+}
+.userItem__text {
+    display: block;
+    width: 150px;
+    color: #bdbdbd;
+}

@@ -1,0 +1,14 @@
+<svg
+    height="120"
+    width="120"
+>
+    <circle
+        class="circle"
+        stroke="#0099ff"
+        stroke-width="6"
+        fill="transparent"
+        r="48"
+        cx="60"
+        cy="60"
+    />
+</svg>
